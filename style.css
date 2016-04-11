@@ -1,0 +1,63 @@
+html, body {
+	margin: 0;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	background: url("starbucks.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+section {
+
+}
+
+header {
+	background: rgba(0, 0, 0, .3);
+	height: 70px;
+	color: snow;
+	text-transform: uppercase;
+	letter-spacing: 1.3px;
+}
+
+header ul {
+	margin: 0;
+	line-height: 70px;
+}
+
+header ul li {
+	padding: 0 10px;
+	display: inline-block;
+}
+
+header ul li a:link {
+	color: snow;
+	text-decoration: none;
+}
+
+header ul li a:visited {
+	color: snow;
+}
+
+header ul li a:active {
+	text-decoration: none;
+}
+
+header ul li:hover{
+	cursor: pointer;
+}
+
+@media (max-width: 550px) {
+    header {
+		height: auto;
+		width: 100%;
+	}
+	
+	ul li {
+    width: 100%;
+	height: auto;
+  }
+}
+
+p {
+	color: snow;
+}
