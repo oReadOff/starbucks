@@ -3,25 +3,37 @@ html, body {
 	font-family: "Montserrat";
 	font-style: normal;
 	font-weight: 400;
-	background: url("starbucks.jpg") no-repeat center center fixed;
+	background-color: #047446;
 	background-size: cover;
 }
 
 section {
-
+	color: snow;
 }
 
 header {
-	background: rgba(0, 0, 0, .3);
+	padding: 10px 20px;
+	background: rgba(0, 0, 0, .2);
 	height: 70px;
 	color: snow;
 	text-transform: uppercase;
 	letter-spacing: 1.3px;
+	width: auto;
+}
+header p {
+	margin: 0;
+	padding: 0 10px;
+	text-transform: uppercase;
+	display: inline-block;
+	line-height: 70px;
+	font-size: 20px;
 }
 
 header ul {
 	margin: 0;
 	line-height: 70px;
+	display: inline;
+	float: right;
 }
 
 header ul li {
@@ -46,10 +58,34 @@ header ul li:hover{
 	cursor: pointer;
 }
 
-@media (max-width: 550px) {
+.logo {
+	margin: 0 30px 0 30px;
+	vertical-align: middle;
+}
+
+footer {
+	padding: 0 20px;
+	background: rgba(0, 0, 0, .2);
+	height: 70px;
+	line-height: 70px;
+	color: snow;
+	text-transform: uppercase;
+	letter-spacing: 1.3px;
+	width: 100%;
+	float: left;
+}
+
+footer p {
+	padding: 0;
+	margin: 0;
+}
+
+@media (max-width: 840px) {
     header {
-		height: auto;
+		margin: 0;
+		padding: 0;
 		width: 100%;
+		float: none;
 	}
 	
 	ul li {
