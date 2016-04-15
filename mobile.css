@@ -1,0 +1,39 @@
+@media (min-width: 769px) {
+.top, .nav, .read {
+	display: flex;
+}
+.top {
+	flex-direction: column;
+	align-items: center;
+}
+
+.first, .second, .welcome {
+	flex: 1 50%;
+}
+
+.read {
+	flex-wrap: wrap;
+}
+
+.first {
+	order: -1;
+}
+
+.welcome {
+	
+}
+}
+
+@media (min-width: 1025px) {
+	.top {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.welcome {
+		flex-grow: 1.4;
+	
+	}
+	.welcome, .first, .second {
+		flex-basis: 0;
+	}
+}

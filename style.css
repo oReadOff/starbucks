@@ -1,0 +1,129 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Montserrat';
+}
+
+body {
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	font-size: 1em;
+	margin: 5px 0;
+}
+
+h2 {
+	font-weight: 300;
+	font-size: 23px;
+	letter-spacing: 1.4px;
+	margin: 0;
+}
+
+section {
+
+}
+
+footer {
+	background: #007042;
+	color: snow;
+	text-align: center;
+	margin: 0;
+	padding: 15px;
+}
+
+footer p {
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+.top {
+
+}
+
+.name {
+	margin: 0;
+	font-size: 1.35em;
+	margin-bottom: -5px;
+}
+
+.name a, .nav a {
+	color: #007042;
+	text-transform: uppercase;
+	letter-spacing: 1.4px;
+
+}
+
+.nav {
+	margin-top: 0px;
+}
+
+.name a, .nav a {
+	display: block;
+	text-align: center;
+	padding: 10px 15px;
+}
+
+.banner {
+	background: #007042;
+	text-align: center;
+	color: snow;
+	padding: 1em 0 3.2em 0;
+	margin-bottom: 48px;
+	text-transform: uppercase;
+	letter-spacing: 1.3px;
+	
+}
+
+.banner h1 {
+	font-family: 'Indie Flower';
+	font-size: 1.5em;
+	margin: 0;
+	padding: 0;
+	letter-spacing: 1.7px;
+}
+
+.logo {
+	width: 190px;
+}
+
+.first, .second, .welcome {
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+
+.starbucks {
+	border-radius: 5px;
+}
+
+
+
+@media (min-width: 769px) {
+	.top {
+		width: 90%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+	
+	.read {
+		margin: 10px;
+		max-width: 1300px;
+	}
+
+}
